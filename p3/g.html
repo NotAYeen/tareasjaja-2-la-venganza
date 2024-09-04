@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Imágenes con efectos</title>
+    <style type="text/css">
+        .imagen:hover { filter: blur(2px); }
+        .imagen2:hover { filter: opacity(0.5); }
+        .imagen3:hover { filter: grayscale(90%); }
+
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+        }
+
+        body {
+            background-image: url('/rcs/bg1.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <table>
+            <tr>
+                <td><img src="/rcs/estres.jpg" width="50%" height="50%" class="imagen centered-image"></td>
+            </tr>
+            <tr>
+                <td><img src="/rcs/boobs.png" width="50%" height="50%" class="imagen2 centered-image"></td>
+            </tr>
+            <tr>
+                <td><img src="/rcs/cansao.jpg" width="50%" height="50%" class="imagen3 centered-image"></td>
+            </tr>
+        </table>
+        <input type="button" value="Atrás" onclick="history.go(-1)">
+    </div>
+</body>
+</html>
