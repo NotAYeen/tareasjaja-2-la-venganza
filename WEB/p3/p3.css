@@ -1,42 +1,35 @@
-html {
+html{
     margin: 0;
     padding: 0;
     background: #efefef;
     color: #000000;
-  }
-
-  body {
+}
+body{
     width: 80%;
     margin: 20px auto;
-  }
-  
-  .limpar {
+}
+.limpiar{
     clear: both;
-  }
-  
-  header, nav, aside, section, article {
+}
+header, nav, aside, section, article{
     margin: 10px 0;
     padding: 20px 0;
     text-align: center;
-    font-size: 18;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Tahoma';
-  }
-  
-  header {
-    background: white;
-  }
-  
-  nav {
-    background: cyan;
-  }
-  
-  nav ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: #ffffff;
+}
+nav{
+    background:  #CEECF5;
+}
+nav ul{
     list-style: none;
-  }
-  
-  .boton_1 {
+}
+.boton_1{
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
@@ -45,42 +38,39 @@ html {
     background-color: #58D3F7;
     border-radius: 6px;
     border: 2px solid #0016b0;
-  }
-  
-  aside {
+}
+aside{
     float: left;
-    width: 30%;
+    width: 27%;
     height: 200px;
-  }
-  
-  section {
+    background: #FFFFFF;
+}
+section{
     float: right;
     width: 70%;
     height: 200px;
     background: #A9D0F5;
-  }
-  
-  aside div {
+}
+aside div{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-  }
-  
-  .imagen:hover {
-    filter: saturate(50%);
-  }
-  
-  article {
+}
+.image:hover{
+    filter: saturate(180%);
+}
+article{
     margin: 10px auto;
     background: #6072BC;
     width: 90%;
-  }
-  
-  .contenedorExterior {
-    margin: 0 auto;
+}
+.contenedorExterior{
+    margin: 0  auto;
     padding: 0;
     width: 600px;
     height: 45px;
     text-align: center;
-  }
-  
+}
+footer{
+    background: #A9D0F5;
+}
