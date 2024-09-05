@@ -1,0 +1,21 @@
+body {
+    width: 80%;
+    margin: 20px auto;
+    background-image: url('DS.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgba(247, 243, 243, 0.87);
+}
+
+header {
+    background: #3535353d;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Console';
+}

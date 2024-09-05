@@ -1,0 +1,34 @@
+body {background-color: #aaf4ff;}
+h1 { text-align: center; color: #ff2b5f;}
+h2 { text-align: center; color: #831671;}
+
+.imagen-adaptable {
+  width: 100%;
+  height: auto;
+}
+.texto-sobre-imagen {
+  background-image: url('glados.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px; 
+  color: white;
+  text-align: center;   
+}
+
+.fondo-rojo {
+    background-color: red;
+}
+
+.contenedorExterior {
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+#pie {
+    color: #ffb200;
+    background-color: #ff40bd;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
